@@ -6,6 +6,11 @@ Please follow the following:
 
 You will need an OpenAI Api Key for certain modules. You can obtain one from https://platform.openai.com/api-keys.
 
+You will need a Weaviate Api Key for certain modules. You can obtain one from your cluster details page after creating a
+cluster at https://console.weaviate.cloud/create-cluster. You will also obtain a cluster-specific REST Api Url.
+
+You will need a Huggingface Api Key for certain modules. You can obtain one from https://huggingface.co/settings/tokens.
+
 Create a copy of `.env.template` as instructed in the file.
 
 I'm not entirely sure of this but it seems from my research that certain packages and drivers need to be installed for
